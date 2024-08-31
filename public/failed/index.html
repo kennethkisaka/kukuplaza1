@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Failed - KUKUPLAZA</title>
+    <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        .error-icon {
+            font-size: 72px;
+            color: red;
+        }
+        .message {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .details {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .details p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="error-icon">✖</div>
+        <h1>Payment Failed</h1>
+        <p class="message">Unfortunately, your payment could not be processed.</p>
+
+        <div class="details">
+            <h2>Details</h2>
+            <p><strong>Order Number:</strong> #123456</p>
+            <p><strong>Item:</strong> <span id="item"></span></p>
+            <p><strong>Quantity:</strong> <span id="quantity"></span></p>
+            <p><strong>Amount:</strong> <span id="amount"></span></p>
+            <p><strong>Payment Method:</strong> M-PESA</p>
+        </div>
+
+        
+        <a href="../checkout/" class="btn">Try Again</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+  
+ 

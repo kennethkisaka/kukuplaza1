@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <form id="checkoutForm" action="/checkout" method="post">
+        <h2>Checkout</h2>
+        <input type="hidden" id="quantity-input" name="quantity">
+        <input type="hidden" id="total-price-input" name="totalprice">
+        <input type="hidden" id="product-id-input" name="productid">
+      
+        <h3>Invoice</h3>
+        <div id="invoice-items">
+            <!-- The invoice items will be populated here -->
+            <p id="broilers" class="invoice">0 Broiler @ 500</p>
+            <strong><p id="broilers-cost" class="invoice-cost invoice">00</p></strong>
+            <hr>
+            <p id="kienyeji" class="invoice">0 Kienyeji @ 1000</p>
+            <strong><p id="kienyeji-cost" class="invoice-cost invoice">00</p></strong>
+            <hr>
+            <strong><p id="total-price" class="invoice">Total Price: KES 00</p></strong>
+            <hr>
+        </div>
+      
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="ex: John Doe"><br><br>
+      
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="ex: 07xxxxxxx">
+        <p>We will use this number to call you when your order is ready</p>
+      
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required placeholder="ex: Miritini Estate, Mombasa">
+        <p>We are currently delivering only around the Coast region. NB: You can personally pick up your order</p>
+      
+        <h3>Payment Method</h3>
+        <img src="./lipanampesa.jpg" alt="Lipa na Mpesa" id="lipanampesa">
+      
+        <label for="mpesa_number">M-Pesa Number:</label>
+        <input type="tel" id="mpesa_number" name="mpesa_number" pattern="[0-9]{10}" required placeholder="ex: 07xxxxxxx">
+        <p>You will be prompted to enter your M-Pesa PIN</p>
+        
+        <button type="submit" id="proceed-button">Proceed to Pay</button>
+    </form>
+    <script src="./script.js"></script>         
+</body>
+</html>
