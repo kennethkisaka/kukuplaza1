@@ -68,3 +68,38 @@ To run the project, you'll need to set up environment variables. Create a `.env`
 ---
 
 This section in your README file will guide users on how to set up their environment variables correctly and ensure they understand the importance of keeping these variables secure.
+
+Here’s how you can update your README file to include information about ordering broilers and Kienyeji chickens and paying using M-Pesa:
+
+---
+
+## Features
+
+### Ordering Broilers and Kienyeji Chickens
+
+Users can place orders for the following types of chickens through our platform:
+
+- **Broilers**: Fast-growing chickens ideal for meat production.
+- **Kienyeji Chickens**: Traditional free-range chickens known for their flavorful meat.
+
+To place an order, follow these steps:
+
+1. **Browse**: Explore our catalog of available broilers and Kienyeji chickens.
+2. **Select**: Choose the quantity and type of chickens you wish to order.
+3. **Add to Cart**: Add your selections to the shopping cart.
+4. **Checkout**: Proceed to checkout where you can review your order and enter your delivery details.
+
+### Payment via M-Pesa
+
+We offer secure payment through M-Pesa for a convenient and local payment experience. To pay using M-Pesa:
+
+1. **Proceed to Checkout**: After finalizing your order, choose M-Pesa as your payment method.
+2. **Receive Payment Details**: You will receive M-Pesa payment instructions and a payment code.
+3. **Make Payment**: Use the M-Pesa mobile app or USSD code to complete the payment using the provided details.
+4. **Confirm Payment**: Once the payment is successful, you will receive a confirmation and your order will be processed.
+
+For more information on how to use M-Pesa or if you encounter any issues during payment, please refer to our [M-Pesa payment guide](#) or contact our support team.
+
+---
+
+This section provides clear instructions on how to order chickens and make payments using M-Pesa, ensuring users understand the process and have a smooth experience.
